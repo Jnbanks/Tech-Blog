@@ -1,0 +1,9 @@
+<h1>Home page</h1>
+{{#each blogs}}
+    <h3>{{title}}</h3>
+    <p>{{body}}</p>
+    <input type="text" id="comment-text{{id}}"/>
+    <button onclick="commentPost({{id}})">comment</button>
+    <p>{{comments.body}}</p>
+    <hr>
+{{/each}}
