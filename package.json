@@ -1,33 +1,32 @@
 {
-  "name": "sess-auth",
+  "name": "tech-blog",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Tech Blog is an application which allows users to create an account, write and post their thoughts and then converse with others by commenting on posts as well. It is for sharing information.",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "resetdb": "mysql -u root -p <  ./db/schema.sql",
-    "seed": "node seeds/index.js",
-    "start":"node server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rufasa85/sess-auth.git"
+    "url": "git+https://github.com/Jnbanks/Tech-Blog.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rufasa85/sess-auth/issues"
+    "url": "https://github.com/Jnbanks/Tech-Blog/issues"
   },
-  "homepage": "https://github.com/Rufasa85/sess-auth#readme",
+  "homepage": "https://github.com/Jnbanks/Tech-Blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
-    "connect-session-sequelize": "^7.1.3",
-    "dotenv": "^16.0.0",
+    "connect-session-sequelize": "^7.1.4",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "express-handlebars": "^6.0.5",
-    "express-session": "^1.17.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.19.0"
+    "node": "^17.7.2",
+    "sequelize": "^6.20.1"
   }
 }
